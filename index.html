@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eugene Grebennikov</title>
+<meta name="description" content="Eugene Grebennikov — Director of Engineering, Data Platform at TradingView. 20+ years in software engineering, 11+ years leading engineering teams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --ink: #17181c;
+    --muted: #5b5f68;
+    --rule: #e4e3df;
+    --link: #1a4fce;
+    --link-visited: #5b3fa8;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 6rem;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  a:visited { color: var(--link-visited); }
+  a:hover { color: var(--ink); }
+  a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+  }
+
+  .role {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin: 0 0 1.4rem;
+  }
+
+  .location {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin: 0 0 1.4rem;
+  }
+
+  .contact {
+    font-size: 1rem;
+    margin: 0 0 3rem;
+  }
+  .contact a { margin-right: 1.1rem; white-space: nowrap; }
+  .contact a:last-child { margin-right: 0; }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 1.1rem;
+    padding-top: 2.6rem;
+    border-top: 1px solid var(--rule);
+  }
+  section:first-of-type h2 { padding-top: 0; border-top: none; }
+
+  p { margin: 0 0 1.1rem; }
+
+  strong { font-weight: 600; }
+
+  .role-block { margin-bottom: 2.2rem; }
+  .role-block:last-child { margin-bottom: 0; }
+
+  .role-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.3rem 1rem;
+    margin-bottom: 0.15rem;
+  }
+  .role-dates { flex-shrink: 0; }
+
+  @media (min-width: 860px) {
+    .role-head { flex-wrap: nowrap; }
+  }
+  .role-names { flex: 1 1 auto; min-width: 0; }
+  .role-title { font-weight: 600; }
+  .role-org {
+    display: block;
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+  .role-dates {
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  ul {
+    margin: 0.6rem 0 0.9rem;
+    padding-left: 1.3rem;
+  }
+  li { margin-bottom: 0.55rem; }
+  li:last-child { margin-bottom: 0; }
+
+  .stack {
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin: 0.9rem 0 0;
+  }
+  .stack span { font-style: italic; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 2.6rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  footer a { margin-right: 1.1rem; }
+  footer a:last-child { margin-right: 0; }
+
+  @media (max-width: 480px) {
+    body { font-size: 16.5px; }
+    main { padding: 3rem 1.25rem 4rem; }
+    h1 { font-size: 1.9rem; }
+    .role-head { flex-direction: column; align-items: flex-start; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    main { animation: settle 0.5s ease-out; }
+  }
+  @keyframes settle {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Eugene Grebennikov</h1>
+  <p class="role">Engineering Leader | Data Platforms &amp; Distributed Systems | Building High-Performance Teams</p>
+  <p class="location">🗽 New York, NY</p>
+  <p class="contact">
+    <a href="mailto:eugene.grebennik@gmail.com">Email</a><a href="https://www.linkedin.com/in/egrebennikov">LinkedIn</a><a href="https://github.com/vokinneberg">GitHub</a>
+  </p>
+
+  <section>
+    <h2>👋 About</h2>
+    <p>
+      I build and scale data platform organizations, and spend most of my time translating technical
+      strategy into business outcomes. Twenty-plus years in software engineering, including eleven-plus
+      years leading engineering teams across high-growth fintech and Fortune 100 media organizations.
+    </p>
+    <p>
+      Today I lead a <strong>20+ engineer</strong> organization across <strong>3 teams</strong>, having
+      previously scaled an org from 10 to <strong>50+ engineers</strong>. I own data platforms serving
+      <strong>100M+ users</strong> and terabyte/day ingestion across <strong>300+ providers</strong>.
+    </p>
+  </section>
+
+  <section>
+    <h2>🧭 Experience</h2>
+
+    <div class="role-block">
+      <div class="role-head">
+        <span class="role-names"><span class="role-title">Director of Engineering, Data Platform</span><span class="role-org">TradingView – Global financial markets and trading analytics platform</span></span>
+        <span class="role-dates">Sep 2025 – Present</span>
+      </div>
+      <p>
+        Own the Data Platform &amp; Data Enablement organization (20+ engineers, 3 teams), responsible
+        for ingestion, processing, and governance of market data across 300+ external providers and
+        20+ blockchain protocol integrations across 12 blockchain networks, powering real-time financial
+        data used by 100M+ traders and investors.
+      </p>
+      <ul>
+        <li>Defined and executed a Data Platform strategy targeting a significant integration cost
+          reduction via process optimization and platform enablement.</li>
+        <li>Established a company-wide DataOps and incident management framework — data tiers, service
+          levels, and incident prioritization — aligning engineering investment with business-critical data.</li>
+        <li>🤖 Designed AI agentic capabilities that cut average incident triage time from 60 to 15
+          minutes, growing DataOps capacity without additional headcount.</li>
+      </ul>
+      <p class="stack"><span>Go, Python, Kafka, PostgreSQL, TimescaleDB, Temporal, Kubernetes, Argo CD, AWS, Claude, MCP, Agent Gateway, Kagent, Vector Search, RAG</span></p>
+    </div>
+
+    <div class="role-block">
+      <div class="role-head">
+        <span class="role-names"><span class="role-title">Principal Software Engineer, Content Platform</span><span class="role-org">NBCUniversal – Fortune 100 global media | New York, NY</span></span>
+        <span class="role-dates">Oct 2021 – Sep 2025</span>
+      </div>
+      <p>
+        Led platform architecture and modernization for NBC News Digital's content delivery and
+        distribution platform, setting technical direction and driving large-scale system redesigns.
+      </p>
+      <ul>
+        <li>Led the migration of a Java monolith on EC2 to Go-based microservices on Kubernetes, cutting
+          operational costs and doubling time-to-market for new functionality.</li>
+        <li>Designed a distributed caching layer that cut internal infrastructure load by 95%
+          (from ~50% to &lt;1%), significantly lowering compute costs.</li>
+        <li>Owned a unified serverless platform that reduced code duplication and improved
+          deployment time and reliability.</li>
+        <li>Defined and enforced platform standards across teams, driving architectural consistency,
+          reliability, and observability at organizational scale.</li>
+      </ul>
+      <p class="stack"><span>Go, TypeScript, Python, MongoDB, Redis, AWS (SQS, Kinesis, DynamoDB), Kubernetes, Terraform</span></p>
+    </div>
+
+    <div class="role-block">
+      <div class="role-head">
+        <span class="role-names"><span class="role-title">Engineering Leadership — Fintech &amp; Payments Platforms</span><span class="role-org">Progressive leadership across A3 Payments, OnlinePay, UMT AG, Omnivore</span></span>
+        <span class="role-dates">2016 – Oct 2021</span>
+      </div>
+      <p>
+        Multiple Head of Engineering roles across fintech and crypto platforms.
+      </p>
+      <ul>
+        <li>📈 Scaled the engineering organization from 10 to 50+ engineers at A3 Payments, establishing
+          execution processes and delivery predictability.</li>
+        <li>Led the platform supporting 500K+ MAU at OnlinePay (crypto wallet/payments), improving
+          scalability and reliability.</li>
+        <li>Delivered payment infrastructure for the Payback ecosystem at UMT AG, leading the platform
+          launch and merchant onboarding.</li>
+        <li>Drove migrations from Ruby/Java monoliths to Go microservices on Kubernetes, reaching up to
+          99.95% reliability, and cut MTTR by up to 40% through new observability systems.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎓 Education</h2>
+    <p>
+      <strong>Moscow State University of Telecommunications and Informatics</strong> — Engineering degree
+      in Computer Systems and Networks. Thesis: <em>Fault-Tolerant Task Scheduling in Real-Time Operating
+      Systems</em>. Graduated with honors.
+    </p>
+  </section>
+
+  <footer>
+    📬 Open to conversations on data platforms, engineering leadership, and scaling high-performing
+    teams — including consulting and speaking opportunities.
+    <br><br>
+    <a href="mailto:eugene.grebennik@gmail.com">Email</a><a href="https://www.linkedin.com/in/egrebennikov">LinkedIn</a><a href="https://github.com/vokinneberg">GitHub</a>
+  </footer>
+
+</main>
+</body>
+</html>
